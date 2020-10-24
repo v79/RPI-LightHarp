@@ -7,7 +7,6 @@ plugins {
 group = "org.liamjd.pi"
 version = "0.1-SNAPSHOT"
 
-
 repositories {
     mavenCentral()
     maven {
@@ -18,8 +17,6 @@ repositories {
         }
     }
 }
-
-
 
 dependencies {
     implementation(kotlin("stdlib"))
